@@ -1,0 +1,25 @@
+{
+  "name": "usd2jpy",
+  "version": "0.0.1",
+  "description": "usd format to japanese yen format.",
+  "permissions": [
+    "contextMenus", "tabs"
+  ],
+  "icons": { "48": "icon.png" },
+  "background": {
+    "scripts": ["jquery-1.7.2.js", "background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/",
+        "http://*/*",
+        "https://*/",
+        "https://*/*"
+      ],
+      "js": ["jquery-1.7.2.js", "content-script.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
+
