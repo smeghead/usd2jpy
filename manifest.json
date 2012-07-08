@@ -1,6 +1,6 @@
 {
   "name": "usd2jpy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "usd format to japanese yen format.",
   "permissions": [
     "contextMenus", "tabs"
